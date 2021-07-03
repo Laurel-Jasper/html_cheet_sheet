@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <nav class="nav-bar">
+    <nav class="nav-bar" id="home">
         <ul>
             <li>Place Holder 1</li>
             <li>Place Holder 2</li>
@@ -16,9 +16,13 @@
         </ul>
     </nav>
     <ul class="vertical-nav-bar">
+        <li><a href="#home">Home</a></li>
         <li><a href="#alphabet-a">A</a></li>
-        <li>Place Holder 2</li>
-        <li>Place Holder 3</li>
+        <li><a href="#alphabet-b">B</a></li>
+        <li><a href="#alphabet-c">C</a></li>
+        <li><a href="#alphabet-d">D</a></li>
+        <li><a href="#alphabet-e">E</a></li>
+        <li><a href="#alphabet-f">F</a></li>
     </ul>
     <h1>HTML: HyperText Markup Language</h1>
     <p>Is the most basic building block of the Web. It defines the meaning and structure of web content. 
@@ -93,11 +97,270 @@
                             Go <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside" target="_blank">HERE</a> for more details.
                          </td>
                     </tr>
+                    <tr>
+                        <td>
+                            &lt;audio controls src="/media/cc0-audio/t-rex-roar.mp3"&gt; ... &lt;/audio&gt;
+                        </td>
+                        <td>
+                            The &lt;audio&gt; HTML element is used to embed sound content in documents. It may contain one or more audio sources, represented using the src attribute or the <code>&lt;source&gt;</code> element: the browser will choose the most suitable one. It can also be the destination for streamed media, using a MediaStream. <br>
+                            Go <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio" target="_blank">HERE</a> for more details.
+                        </td>
+                    </tr>
+                    <tr id="alphabet-b">
+                        <td>
+                            &lt;b&gt;&lt;/b&gt;
+                        </td>
+                        <td>
+                            The &lt;b&gt; HTML element is used to draw the reader's attention to the element's contents, which are not otherwise granted special importance. This was formerly known as the Boldface element, and most browsers still draw the text in boldface. However, you should not use &lt;b&gt; for styling text; instead, you should use the CSS font-weight property to create boldface text, or the &lt;strong&gt; element to indicate that text is of special importance. <br>
+                            Go <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b" target="_blank">HERE</a> for more details.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &lt;base&gt;
+                        </td>
+                        <td>
+                            The <code>&lt;base&gt;</code> HTML element specifies the base URL to use for all relative URLs in a document. There can be only one <code>&lt;base&gt;</code> element in a document.
+                            A document's used base URL can be accessed by scripts with <a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/baseURI" target="_blank">Node/baseURI</a>. If the document has no <code>&lt;base&gt;</code> elements, then baseURI defaults to <a href="https://developer.mozilla.org/en-US/docs/Web/API/Location/href" target="_blank">location.href</a>. <br>
+                            Go <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base" target="_blank">HERE</a> for more details.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &lt;bdi&gt;&lt;/bdi&gt;
+                        </td>
+                        <td>
+                            The Bidirectional Isolate element -the <code>&lt;bdi&gt;</code> HTML element tells the browser's bidirectional algorithm to treat the text it contains in isolation from its surrounding text. It's particularly useful when a website dynamically inserts some text and doesn't know the directionality of the text being inserted. <br>
+                            Go <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bdi" target="_blank">HERE</a> for more details.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &lt;bdo&gt;&lt;/bdo&gt;
+                        </td>
+                        <td>
+                            The Bidirectional Text Override element - the <code>&lt;bdo&gt;</code> HTML element overrides the current directionality of text, so that the text within is rendered in a different direction. <br>
+                            Go <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bdo" target="_blank">HERE</a> for more details.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &lt;blockquote&gt;&lt;/blockquote&gt;
+                        </td>
+                        <td>
+                            The Block Quotation element - the <code>&lt;blockquote&gt;</code> HTML element indicates that the enclosed text is an extended quotation. Usually, this is rendered visually by indentation (see Notes for how to change it). A URL for the source of the quotation may be given using the cite attribute, while a text representation of the source can be given using the <cite> element. <br>
+                            Go <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote" target="_blank">HERE</a> for more details.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &lt;body&gt;&lt;/body&gt;
+                        </td>
+                        <td>
+                            The Document Body element - the <code>&lt;body&gt;</code> HTML element represents the content of an HTML document. There can be only one <code>&lt;body&gt;</code> element in a document. <br>
+                            Go <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body" target="_blank">HERE</a> for more details.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &lt;br&gt;
+                        </td>
+                        <td>
+                            The Line Break element - the <code>&lt;br&gt;</code> HTML element produces a line break in text (carriage-return). It is useful for writing a poem or an address, where the division of lines is significant. <br>
+                            Go <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br" target="_blank">HERE</a> for more details.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &lt;button&gt;&lt;/button&gt;
+                        </td>
+                        <td>
+                            The Button element - the <code>&lt;button&gt;</code> HTML element represents a clickable button, used to submit forms or anywhere in a document for accessible, standard button functionality. By default, HTML buttons are presented in a style resembling the platform the user agent runs on, but you can change buttons’ appearance with CSS. <br>
+                            Go <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button" target="_blank">HERE</a> for more details.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="alphabet-c">
+                            &lt;canvas&gt;
+                        </td>
+                        <td>
+                            The Graphics Canvas element - use the HTML <code>&lt;canvas&gt;</code> element with either the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API" target="_blank">canvas scripting API</a> or the <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API" target="_blank">WebGL API</a> to draw graphics and animations. <br>
+                            Go <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas" target="_blank">HERE</a> for more details.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &lt;caption&gt;&lt;/caption&gt;
+                        </td>
+                        <td>
+                            The Table Caption element - the <code>&lt;caption&gt;</code> HTML element specifies the caption (or title) of a table. <br>
+                            Go <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/caption">HERE</a> for more details.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &lt;cite&gt;&lt;/cite&gt;
+                        </td>
+                        <td>
+                            The Citation element - the <code>&lt;cite&gt;</code> HTML element is used to describe a reference to a cited creative work, and must include the title of that work. The reference may be in an abbreviated form according to context-appropriate conventions related to citation metadata. <br>
+                            Go <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite" target="_blank">HERE</a> for more details.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &lt;code&gt;&lt;/code&gt;
+                        </td>
+                        <td>
+                            The Inline Code element - the <code>&lt;code&gt;</code> HTML element displays its contents styled in a fashion intended to indicate that the text is a short fragment of computer code. By default, the content text is displayed using the user agent's default monospace font. <br>
+                            Go <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code" target="_blank">HERE</a> for more details.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &lt;col&gt;
+                        </td>
+                        <td>
+                            The <code>&lt;col&gt;</code> HTML element defines a column within a table and is used for defining common semantics on all common cells. It is generally found within a <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/colgroup" target="_blank"><code>&lt;colgroup&gt;</code></a> element. <br>
+                            Go <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/col" target="_blank">HERE</a> to get more details.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &lt;colgroup&gt;&lt;/colgroup&gt;
+                        </td>
+                        <td>
+                            The <code>&lt;colgroup&gt;</code> HTML element defines a group of columns within a table. <br>
+                            Go <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/colgroup" target="_blank">HERE</a> for more details.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="alphabet-d">
+                            &lt;data&gt;&lt;/data&gt;
+                        </td>
+                        <td>
+                            The <code>&lt;data&gt;</code> HTML element links a given piece of content with a machine-readable translation. If the content is time- or date-related, the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time" target="_blank"><code>&lt;time&gt;</code></a> element must be used. <br>
+                            Go <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/data" target="_blank">HERE</a> for more details.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &lt;datalist&gt;&lt;/datalist&gt;
+                        </td>
+                        <td>
+                            The HTML Data List element - the <code>&lt;datalist&gt;</code> HTML element contains a set of <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option" target="_blank"><code>&lt;option&gt;</code></a> elements that represent the permissible or recommended options available to choose from within other controls. <br>
+                            Go <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/datalist" target="_blank">HERE</a> for more details.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &lt;dd&gt;&lt;/dd&gt;
+                        </td>
+                        <td>
+                            The Description Details element - the <code>&lt;dd&gt;</code> HTML element provides the description, definition, or value for the preceding term (<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dt" target="_blank"><code>&lt;dt&gt;</code></a>) in a description list (<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl" target="_blank"><code>&lt;dl&gt;</code></a>).
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &lt;del&gt;&lt;/del&gt;
+                        </td>
+                        <td>
+                            The Deleted Text element - the <code>&lt;del&gt;</code> HTML element represents a range of text that has been deleted from a document. This can be used when rendering "track changes" or source code diff information, for example. The <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ins" target="_blank">&lt;ins&gt;</a> element can be used for the opposite purpose: to indicate text that has been added to the document. <br>
+                            Go <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/del" target="_blank">HERE</a> for more details.   
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &lt;details&gt;&lt;/details&gt;
+                        </td>
+                        <td>
+                            The Details disclosure elementThe <details> HTML element creates a disclosure widget in which information is visible only when the widget is toggled into an "open" state. A summary or label must be provided using the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary" target="_blank">&lt;summary&gt;</a> element. <br><br>
+                            A disclosure widget is typically presented onscreen using a small triangle which rotates (or twists) to indicate open/closed status, with a label next to the triangle. The contents of the <code>&lt;summary&gt;</code> element are used as the label for the disclosure widget. <br>
+                            Go <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details" target="_blank">HERE</a> for more details.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &lt;dfn&gt;&lt;/dfn&gt;
+                        </td>
+                        <td>
+                            The Definition element - the &lt;dfn&gt; HTML element is used to indicate the term being defined within the context of a definition phrase or sentence. The <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p" target="_blank"><code>&lt;p&gt;</code></a> element, the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dt" target="_blank"><code>&lt;dt&gt;</code></a> /<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dd" target="_blank"><code>&lt;dd&gt;</code></a> pairing, or the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section" target="_blank"><code>&lt;section&gt;</code></a> element which is the nearest ancestor of the <code>&lt;dfn&gt;</code> is considered to be the definition of the term. <br>
+                            Go <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dfn" target="_blank">HERE</a> for more details.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &lt;dialog&gt;
+                        </td>
+                        <td>
+                            The Dialog element - the &lt;dialog&gt; HTML element represents a dialog box or other interactive component, such as a dismissible alert, inspector, or subwindow. <br>
+                            Go <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog" target="_blank">HERE</a> for more details.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &lt;div&gt;&lt;/div&gt;
+                        </td>
+                        <td>
+                            The Content Division element - the &lt;div&gt; HTML element is the generic container for flow content. It has no effect on the content or layout until styled in some way using CSS (e.g. styling is directly applied to it, or some kind of layout model like Flexbox is applied to its parent element). <br>
+                            Go <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div" target="_blank">HERE</a> for more details.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &lt;dl&gt;&lt;/dl&gt;
+                        </td>
+                        <td>
+                            The Description List element - the &lt;dl&gt; HTML element represents a description list. The element encloses a list of groups of terms (specified using the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dt" target="_blank"><code>&lt;dt&gt;</code></a>  element) and descriptions (provided by <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dd" target="_blank"><code>&lt;dd&gt;</code></a> elements). Common uses for this element are to implement a glossary or to display metadata (a list of key-value pairs). <br>
+                            Go <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl" target="_blank">HERE</a> for more details.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &lt;dt&gt;&lt;/dt&gt;
+                        </td>
+                        <td>
+                            The Description Term elementThe <code>&lt;dt&gt;</code> HTML element specifies a term in a description or definition list, and as such must be used inside a <code>&lt;dl&gt;</code> element. It is usually followed by a <code>&lt;dd&gt;</code> element; however, multiple <code>&lt;dt&gt;</code> elements in a row indicate several terms that are all defined by the immediate next <code>&lt;dd&gt;</code> element. <br><br>
+                            The subsequent <code>&lt;dd&gt;</code> (Description Details) element provides the definition or other related text associated with the term specified using <code>&lt;dt&gt;</code>. <br>
+                            Go <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dt">HERE</a> for more details.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="alphabet-e">
+                            &lt;em&gt;&lt;/em&gt;
+                        </td>
+                        <td>
+                            The Emphasis element - the &lt;em&gt; HTML element marks text that has stress emphasis. The &lt;em&gt; element can be nested, with each level of nesting indicating a greater degree of emphasis. <br>
+                            Go <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em" target="_blank">HERE</a> for more details.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &lt;embed&gt;
+                        </td>
+                        <td>
+                            The Embed External Content element - the &lt;embed&gt; HTML element embeds external content at the specified point in the document. This content is provided by an external application or other source of interactive content such as a browser plug-in. <br>
+                            Go <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed" target="_blank">HERE</a> for more details.
+                        </td>
+                    </tr>
+                    <tr id="alphabet-f">
+                        <td>
+                            &lt;fieldset&gt;&lt;/fieldset&gt;
+                        </td>
+                        <td>
+                            The Field Set element - the <code>&lt;fieldset&gt;</code> HTML element is used to group several controls as well as labels (<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label" target="_blank"><code>&lt;label&gt;</code></a> within a web form. <br>
+                            Go <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset" target="_blank">HERE</a> for more details.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &lt;fieldset&gt;&lt;/fieldset&gt;
+                        </td>
+                    </tr>
                 </tbody>
             </table>
         </div>
 
-
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label" target="_blank"><code>&lt;label&gt;</code></a> 
 
         
         <div id="a-element">
